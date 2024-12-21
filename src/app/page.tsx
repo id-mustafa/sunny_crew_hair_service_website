@@ -25,7 +25,7 @@ export default function Home() {
         <div className="flex flex-col justify-evenly w-full sm:flex-row items-center sm:items-start gap-6 mt-[10rem]">
           <div className="max-w-sm text-center sm:text-left mx-auto">
             <strong>
-              <p className="text-xl mt-2">Sunny's Hours:</p>
+              <p className="text-xl mt-2">Sunny&apos;s Hours:</p>
             </strong>
             <ul>
               <li>Monday: Closed</li>
