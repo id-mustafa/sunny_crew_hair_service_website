@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-type Props = {}
-
-const Navbar = (props: Props) => {
-  return (
-    <div>Navbar</div>
+const Navbar = () => {
+    return (
+        <nav>
+            <div>Navbar</div>   
+        </nav>
   )
 }
 
