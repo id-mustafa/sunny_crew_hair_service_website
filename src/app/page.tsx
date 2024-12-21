@@ -7,13 +7,13 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start max-w-5xl w-full">
         <div className="text-center sm:text-left mt-[3rem] mb-[3rem]">
           <p className="text-lg mt-2">
-          For over 10 years, Sunny & Crew have been providing top-notch haircuts to men and women in Durham, NC.
+          For over 10 years, <strong>Sunny & Crew</strong> have been providing top-notch haircuts to men and women in Durham, NC.
             Whether you&apos;re looking for a fresh cut, vibrant color, or an elegant style, 
             we are here to make you shine!
           </p>
         </div>
 
-        <div className="flex flex-col sm:flex-row justify-center items-center ">
+        <div className="flex justify-center items-center gap-4">
           <div>
             <CallNow />
           </div>
@@ -30,7 +30,9 @@ export default function Home() {
         </div>
 
 
-        <div className="flex flex-col justify-evenly w-full sm:flex-row items-start sm:items-center gap-6 mt-[3rem]">
+
+
+        <div className="flex flex-col justify-evenly w-full sm:flex-row items-start sm:items-center gap-6 mt-[10rem]">
           <div className="max-w-sm">
             <strong>
               <p className="text-lg mt-2">
