@@ -27,7 +27,7 @@ const CallNow = () => {
         className={`py-2 px-4 rounded-[2rem] text-lg text-white transition-all duration-200 delay-50 ${
           isFetching
             ? 'bg-black cursor-not-allowed'
-            : 'bg-neutral-800 hover:bg-gray-400'
+            : 'bg-neutral-800 hover:bg-gray-500'
         }`}
       >
         {isFetching ? 'Calling...' : 'Call Us Now!'}
