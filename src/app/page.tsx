@@ -1,4 +1,5 @@
 import Image from "next/image";
+import CallNow from "./components/CallNow";
 
 export default function Home() {
   return (
