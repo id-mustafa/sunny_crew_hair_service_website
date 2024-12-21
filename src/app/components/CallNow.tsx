@@ -24,13 +24,13 @@ const CallNow = () => {
       <button
         onClick={handleCall}
         disabled={isFetching}
-        className={`py-2 px-4 rounded-[2rem] text-lg text-white transition-all duration-200 delay-50 ${
+        className={`rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 ${
           isFetching
-            ? 'bg-black cursor-not-allowed'
-            : 'bg-neutral-800 hover:bg-gray-500'
+            ? 'cursor-not-allowed'
+            : 'bg-gray-200 hover:bg-gray-300'
         }`}
       >
-        {isFetching ? 'Calling...' : 'Call Us Now!'}
+        {isFetching ? 'Calling...' : ' Call Now'}
       </button>
     </div>
   );

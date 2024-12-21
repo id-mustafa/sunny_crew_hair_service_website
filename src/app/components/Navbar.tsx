@@ -25,28 +25,13 @@ const Navbar = () => {
           className="object-contain"
         />
       </Link>
+      
+      <strong>
+        <div className='text-2xl'>Sunny & Crew Hair Service</div>
+      </strong>
 
       {/* Desktop Links */}
       <div className="hidden sm:flex gap-8 items-center">
-        <Link
-          href="/about"
-          className="text-lg text-gray-700 hover:text-gray-400"
-        >
-          About
-        </Link>
-        <Link
-          href="/services"
-          className="text-lg text-gray-700 hover:text-gray-400"
-        >
-          Services
-        </Link>
-          <Link
-          href="/contact"
-          className="text-lg text-gray-700 hover:text-gray-400"
-        >
-          Contact Us
-        </Link>
-        <CallNow />
       </div>
 
       {/* Hamburger Icon */}
@@ -88,27 +73,6 @@ const Navbar = () => {
           menuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
         }`}
       >
-        <Link
-          href="/about"
-          onClick={closeMenu}
-          className="text-lg text-gray-700 animate-link hover:text-gray-500 mb-2"
-        >
-          About
-        </Link>
-        <Link
-          href="/services"
-          onClick={closeMenu}
-          className="text-lg text-gray-700 animate-link hover:text-gray-500 mb-2"
-        >
-          Services
-        </Link>
-        <Link
-          href="/contact"
-          onClick={closeMenu}
-          className="text-lg text-gray-700 animate-link hover:text-gray-500 mb-2"
-        >
-          Contact Us
-        </Link>
         <CallNow />
       </div>
     </nav>
