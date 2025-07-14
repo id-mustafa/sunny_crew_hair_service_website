@@ -56,12 +56,12 @@ export default function Home() {
         </div>
 
         <div className="text-center sm:text-left grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-2 justify-items-center w-full">
-          <div>Men&apos;s cut | <span className="price">$30-35</span></div>
-          <div>Women&apos;s cut | <span className="price">$40-45</span></div>
+          <div>Men&apos;s cut | <span className="price">$30-40</span></div>
+          <div>Women&apos;s cut | <span className="price">$45-50</span></div>
           <div>Medium Length Hair Keratin treatement | <span className="price">$300 </span></div>
           <div>Long Hair Keratin treatement | <span className="price">$400 </span></div>
           <div>Hair Dye | <span className="price">Flexible </span></div>
-          <div>Perm | <span className="price">$100-125 </span></div>
+          <div>Perm | <span className="price">$110-125 </span></div>
           <div>Semi-permanent micro-blading eyebrow tattoo | <span className="price">$300 (2 sessions)</span></div>
         </div>
 
