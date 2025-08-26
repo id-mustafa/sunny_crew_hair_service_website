@@ -62,7 +62,7 @@ export default function Home() {
           <div>Long Hair Keratin treatement | <span className="price">$400 </span></div>
           <div>Hair Dye | <span className="price">Flexible </span></div>
           <div>Perm | <span className="price">$110-125 </span></div>
-          <div>Semi-permanent micro-blading eyebrow tattoo | <span className="price">$300 (2 sessions)</span></div>
+          <div>Semi-permanent micro-blading eyebrow tattoo | <span className="price">$400 (2 sessions)</span></div>
         </div>
 
         <div className="text-center sm:text-left">
